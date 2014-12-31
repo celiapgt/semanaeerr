@@ -1,2 +1,13 @@
+name: "Semana EERR"
+description: "Semana de Enfermedades Raras, 2015 octubre en la ciudad de México"
+
+encoding: UTF-8
+timezone: America/Mexico_City
+
+url: "http://localhost:4000"
+
+paginate: 10
+permalink: /:year:month:day:_:title/
+
 markdown: rdiscount
-pygments: true
+highlighter: pygments
